@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: mav_lowlevel_attitude_controller
+Description: Description of mav_lowlevel_attitude_controller
+Version: 0.0.0
+Cflags: -I/root/catkin_ws/devel/include -I/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_lowlevel_attitude_controller/include
+Libs: -L${prefix}/lib -lpid_attitude_controller_lib
+Requires: mav_msgs std_msgs cmake_modules geometry_msgs roscpp dynamic_reconfigure tf

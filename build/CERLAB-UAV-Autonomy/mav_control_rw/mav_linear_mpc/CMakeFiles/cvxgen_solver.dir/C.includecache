@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/ldl.c
+solver.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/matrix_support.c
+solver.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.c
+solver.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+mex.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/mex.h
+stdio.h
+-
+math.h
+-
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/util.c
+solver.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+time.h
+-
+stdlib.h
+-
+math.h
+-
+
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/variables_definition.c
+solver.h
+/root/catkin_ws/src/CERLAB-UAV-Autonomy/mav_control_rw/mav_linear_mpc/lib/solver.h
+

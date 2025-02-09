@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: system_id
+Description: Description of system_id
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs sensor_msgs mavros_msgs tf2 tf2_ros tf2_geometry_msgs tf
